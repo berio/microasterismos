@@ -1,5 +1,13 @@
-#ifndef _WAVE_H
-#define _WAVE_H
+//
+//  wave.h
+//  microasterismos
+//
+//  Created by Berio Molina on 09/06/14.
+//
+//
+
+#ifndef __microasterismos__wave__
+#define __microasterismos__wave__
 
 #include "ofMain.h"
 
@@ -9,11 +17,12 @@ public:
 	
     wave();
     
-    void setup(float _x, float _y);
+    void setup(float _x, float _y, int _duration);
     void update(float _x, float _y, float _r);
     bool getKillMe();
     
     void draw();
+    void setTipo(string _tipo);
     
 private:
 	
@@ -24,7 +33,8 @@ private:
     float alphaValue;
     float expandValue;
     int cYr, cYg, cYb;
-    ofPoint ringPos;	
+    ofPoint ringPos;
+    string tipo;
 };
 
-#endif
+#endif /* defined(__microasterismos__wave__) */

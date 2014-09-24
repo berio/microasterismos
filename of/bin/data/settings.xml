@@ -1,0 +1,34 @@
+<microasterimos>
+	<camera>
+		<guiAutoCamera>0</guiAutoCamera>
+		<guiShutter>0.734694</guiShutter>
+		<guiExposure>0.852041</guiExposure>
+		<guiBrightness>1</guiBrightness>
+		<guiGamma>0.923469</guiGamma>
+		<guiGain>0.928571</guiGain>
+		<shutter/>
+		<exposure/>
+		<brightness/>
+		<gamma/>
+		<gain/>
+	</camera>
+	<openCv>
+		<guiBlur>9</guiBlur>
+		<guiThreshold>202</guiThreshold>
+		<guiMinArea>66</guiMinArea>
+		<guiMaxArea>1326</guiMaxArea>
+	</openCv>
+	<find_area>
+		<findAreaPointA>259, 92</findAreaPointA>
+		<findAreaPointB>332, 92</findAreaPointB>
+		<findAreaPointC>332, 399</findAreaPointC>
+		<findAreaPointD>259, 399</findAreaPointD>
+	</find_area>
+	<warp>
+		<warpAreaPointA>27, -15</warpAreaPointA>
+		<warpAreaPointB>687, -18</warpAreaPointB>
+		<warpAreaPointC>698, 483</warpAreaPointC>
+		<warpAreaPointD>45, 491</warpAreaPointD>
+	</warp>
+<microasterimos/>
+</microasterimos>

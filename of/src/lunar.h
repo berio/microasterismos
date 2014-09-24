@@ -1,11 +1,13 @@
 //
 //  lunar.h
+//  microasterismos
 //
-//  Created by berio molina on 20/08/13.
+//  Created by Berio Molina on 09/06/14.
+//
 //
 
-#ifndef _LUNAR_H
-#define _LUNAR_H
+#ifndef __microasterismos__lunar__
+#define __microasterismos__lunar__
 
 #include "ofMain.h"
 #include "wave.h"
@@ -15,17 +17,19 @@ class lunar : public ofPoint {
 public:
     lunar();
     ~lunar();
-    void setup(float _x, float _y, float _r);
+    void setup(float _x, float _y, float _r, int _d, string _tipo = "");
     void update(float _x, float _y, float _distanciaMinima, float _rOrixinal);
     void draw();
     
 private:
     float r;
     float rOrixinal;
-
+    int duracionOnda;
+    string tipoOnda;
+    
 protected:
     vector <wave>	waveList;
     
 };
 
-#endif
+#endif /* defined(__microasterismos__lunar__) */
